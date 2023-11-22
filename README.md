@@ -1,6 +1,6 @@
 **Autores: Santos, Fonseca, Laura, Caterina y Adrián**
 
-**GitHub:**
+**GitHub:https://github.com/joropge/index.git**
 ## Estructura ##
 
 ***Apartados Java Script***
