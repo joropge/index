@@ -6,17 +6,19 @@ import { loop } from "./canvas-setup.js";
 
 export const balls = [];
 
-while (balls.length < 4) {
-  const size = random(10, 20);
-  const ball = new Ball(
-    random(0 + size, width - size),
-    random(0 + size, height - size),
-    random(-7, 7),
-    random(-7, 7),
-    size
-  );
+const fillBall = (numBall) => {
+  while (balls.length < numBall) {
+    const size = random(10, 20);
+    const ball = new Ball(
+      random(0 + size, width - size),
+      random(0 + size, height - size),
+      random(-7, 7),
+      random(-7, 7),
+      size
+    );
 
-  balls.push(ball);
-}
-
+    balls.push(ball);
+  }
+};
+fillBall(4);
 loop();
