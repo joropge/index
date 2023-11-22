@@ -9,7 +9,8 @@ body {
 }
 h1{
     text-align: center;
-    color: aliceblue;
+    /* color: aliceblue; */
+    color: rgba(red, green, blue, alpha);
     padding: 20px;
     position: absolute;
     left: 50%;
