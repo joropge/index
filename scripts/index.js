@@ -1,3 +1,8 @@
+/*
+Autor:Jorge Ordiz Pérez
+GitHub:https://github.com/joropge/index.git
+
+*/
 import { Ball } from "./balls-class.js";
 import { width } from "./canvas-setup.js";
 import { height } from "./canvas-setup.js";
